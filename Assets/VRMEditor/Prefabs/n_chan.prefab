@@ -4154,7 +4154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b678c1df50cfb547990db24a32856da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlendShapeAvatar: {fileID: 0}
+  BlendShapeAvatar: {fileID: 11400000, guid: 9300f54fc1295875696c1a5c7582aeed, type: 2}
 --- !u!1 &8170642286861151429
 GameObject:
   m_ObjectHideFlags: 0
@@ -4961,7 +4961,7 @@ MonoBehaviour:
   m_gravityPower: 0.2
   m_gravityDir: {x: 0, y: -1, z: 0}
   m_dragForce: 0.4
-  m_center: {fileID: 3500790484051483556}
+  m_center: {fileID: 0}
   RootBones:
   - {fileID: 438567182819483843}
   - {fileID: 8592039004182438952}
@@ -4982,8 +4982,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_comment: 
   m_gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  m_stiffnessForce: 1
-  m_gravityPower: 0.5
+  m_stiffnessForce: 0.5
+  m_gravityPower: 0.2
   m_gravityDir: {x: 0, y: -1, z: 0}
   m_dragForce: 0.4
   m_center: {fileID: 3500790484051483556}
