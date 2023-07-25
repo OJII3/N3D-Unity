@@ -230,6 +230,10 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4059464056286233167, guid: 075f13e5a991a1b6a8a9780da3ff781b, type: 3}
+      propertyPath: RootBones.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4543264861173439973, guid: 075f13e5a991a1b6a8a9780da3ff781b, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -1466,15 +1470,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603506661007150958, guid: f5be2e2fb8ad60f6c91a016bda13a4d5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.06673609
+      value: 0.06673607
       objectReference: {fileID: 0}
     - target: {fileID: 7603506661007150958, guid: f5be2e2fb8ad60f6c91a016bda13a4d5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.23293406
+      value: -0.23293398
       objectReference: {fileID: 0}
     - target: {fileID: 7603506661007150958, guid: f5be2e2fb8ad60f6c91a016bda13a4d5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.016024763
+      value: 0.016024757
       objectReference: {fileID: 0}
     - target: {fileID: 7801982358270399019, guid: f5be2e2fb8ad60f6c91a016bda13a4d5, type: 3}
       propertyPath: m_VerticalDamping

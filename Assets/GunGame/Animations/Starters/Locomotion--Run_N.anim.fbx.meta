@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 063aa479676c4084ebf187660ca0a7b8
+guid: 7ce3cd85fbecfaa2fb5a73e66e9490a7
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
-      74: -2702400367771620057
-    second: InAir
+      74: 6564411413370888346
+    second: Run_N
   externalObjects: {}
   materials:
-    materialImportMode: 2
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -28,19 +28,19 @@ ModelImporter:
     importAnimatedCustomProperties: 0
     importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.25
+    animationRotationError: 0.05
     animationPositionError: 0.05
-    animationScaleError: 0.05
+    animationScaleError: 0.25
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: InAir
-      takeName: InAir
+      name: Run_N
+      takeName: Run_N
       internalID: 0
       firstFrame: 0
-      lastFrame: 80
+      lastFrame: 20
       wrapMode: 0
       orientationOffsetY: 0
       level: -0.1
@@ -48,7 +48,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 1
+      loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
@@ -59,7 +59,21 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.3221903
+        functionName: OnFootstep
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.8077375
+        functionName: OnFootstep
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -914,7 +928,7 @@ ModelImporter:
   animationType: 3
   humanoidOversampling: 1
   avatarSetup: 2
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 

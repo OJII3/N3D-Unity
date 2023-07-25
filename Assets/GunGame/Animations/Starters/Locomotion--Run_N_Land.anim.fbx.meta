@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 063aa479676c4084ebf187660ca0a7b8
+guid: 90c71945992359bd7aa8988041b62778
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
-      74: -2702400367771620057
-    second: InAir
+      74: -2817517482862745934
+    second: Run_N_Land
   externalObjects: {}
   materials:
-    materialImportMode: 2
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -26,29 +26,29 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
+    importConstraints: 1
     animationCompression: 1
-    animationRotationError: 0.25
+    animationRotationError: 0.05
     animationPositionError: 0.05
-    animationScaleError: 0.05
+    animationScaleError: 0.25
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: InAir
-      takeName: InAir
+      name: Run_N_Land
+      takeName: Run_N_Land
       internalID: 0
       firstFrame: 0
-      lastFrame: 80
+      lastFrame: 20
       wrapMode: 0
       orientationOffsetY: 0
       level: -0.1
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
+      loopTime: 0
+      loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
@@ -59,7 +59,14 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.1763074
+        functionName: OnLand
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -914,7 +921,7 @@ ModelImporter:
   animationType: 3
   humanoidOversampling: 1
   avatarSetup: 2
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 

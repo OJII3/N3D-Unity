@@ -891,7 +891,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085659024485526843}
-  m_LocalRotation: {x: 0.010616019, y: 0.012894059, z: -0.014345198, w: 0.9997576}
+  m_LocalRotation: {x: 0.01061602, y: 0.012894059, z: -0.014345199, w: 0.9997576}
   m_LocalPosition: {x: -3.5762785e-11, y: 0.00020341061, z: -8.784234e-10}
   m_LocalScale: {x: 1, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2343,7 +2343,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5053439820739246716}
-  m_LocalRotation: {x: 0.010616027, y: -0.012894055, z: 0.01434519, w: 0.9997576}
+  m_LocalRotation: {x: 0.010616028, y: -0.012894055, z: 0.0143451905, w: 0.9997576}
   m_LocalPosition: {x: -1.7881393e-11, y: 0.00020340997, z: 3.3080577e-10}
   m_LocalScale: {x: 1, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4035,10 +4035,11 @@ GameObject:
   - component: {fileID: 8826100443571675677}
   - component: {fileID: 3214645735622195303}
   - component: {fileID: 1145794134712000439}
-  - component: {fileID: 6544161608372016672}
+  - component: {fileID: 4954232589166400901}
+  - component: {fileID: 9076480487630104249}
   - component: {fileID: 6113020080526915680}
   m_Layer: 0
-  m_Name: n_chan
+  m_Name: N3D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4080,7 +4081,7 @@ Animator:
   m_GameObject: {fileID: 8158071969492875431}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 93f06bc4268207c65b141f06d121cee3, type: 3}
-  m_Controller: {fileID: 9100000, guid: c9b6e6730d571b240811a8a6f62700f7, type: 2}
+  m_Controller: {fileID: 9100000, guid: 231d92725e4c05b899cebe2302510a23, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -4107,7 +4108,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!136 &6544161608372016672
+--- !u!136 &4954232589166400901
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4117,10 +4118,29 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.2
+  m_Radius: 0.3
   m_Height: 1.4
   m_Direction: 1
   m_Center: {x: 0, y: 0.7, z: 0}
+--- !u!114 &9076480487630104249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8158071969492875431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e4536bb6e8c04216bdac9fb096e1e34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 3214645735622195303}
+  rigidbody: {fileID: 1145794134712000439}
+  followCamera: {fileID: 0}
+  grounded: 1
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &6113020080526915680
 MonoBehaviour:
   m_ObjectHideFlags: 0

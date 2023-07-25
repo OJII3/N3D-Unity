@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 063aa479676c4084ebf187660ca0a7b8
+guid: f1216224dc7a5b220ac6ea0a63425562
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
-      74: -2702400367771620057
-    second: InAir
+      74: -3100369314251171874
+    second: Idle
   externalObjects: {}
   materials:
-    materialImportMode: 2
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -28,19 +28,19 @@ ModelImporter:
     importAnimatedCustomProperties: 0
     importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.25
+    animationRotationError: 0.05
     animationPositionError: 0.05
-    animationScaleError: 0.05
+    animationScaleError: 0.25
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: InAir
-      takeName: InAir
+      name: Idle
+      takeName: Idle
       internalID: 0
-      firstFrame: 0
-      lastFrame: 80
+      firstFrame: 1
+      lastFrame: 149
       wrapMode: 0
       orientationOffsetY: 0
       level: -0.1
@@ -48,7 +48,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 1
+      loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
@@ -63,7 +63,7 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 1
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -914,7 +914,7 @@ ModelImporter:
   animationType: 3
   humanoidOversampling: 1
   avatarSetup: 2
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
