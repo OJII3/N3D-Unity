@@ -199,8 +199,8 @@ namespace GunGame
 
         private void HandleAttack()
         {
-            if (animator.GetCurrentAnimatorStateInfo(0).IsName("normal_attack1") &&
-                animator.GetCurrentAnimatorStateInfo(0).normalizedTime <= 1)
+            var currentState = animator.GetCurrentAnimatorStateInfo(0);
+            if (currentState.IsName("normal_attack_1") || currentState.IsName("normal_attack_2") || currentState.IsName("normal_attack_3") && currentState.normalizedTime < 1)
             {
                 attacking = true;
             }
