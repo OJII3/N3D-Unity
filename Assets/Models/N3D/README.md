@@ -2,7 +2,8 @@
 
 ## Environment
 
-- Ubuntu22.04
+- ~~Ubuntu22.04~~
+- ArchLinux
 - Blender3.6.0
 
 ## Appearance

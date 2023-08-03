@@ -7,12 +7,12 @@ using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
 using UnityEngine.UIElements;
 
-namespace N3D
+namespace Editor
 {
     [RequireComponent(typeof(Animator))]
     [RequireComponent(typeof(CapsuleCollider))]
     [RequireComponent(typeof(Rigidbody))]
-    public class NchanController : MonoBehaviour
+    public class EditorCharacterController : MonoBehaviour
     {
         [SerializeField] private Animator animator;
         [SerializeField] private CapsuleCollider collider;
@@ -22,7 +22,7 @@ namespace N3D
         public bool grounded = true;
         public LayerMask groundLayers;
 
-        private PlayerInputActions inputActions;
+        private EditorInputActions inputActions;
 
         private readonly float MoveSpeed = 6.0f;
         private float sprintSpeed = 16f;
@@ -57,7 +57,7 @@ namespace N3D
 
         private void Awake()
         {
-            inputActions = new PlayerInputActions();
+            inputActions = new EditorInputActions();
             inputActions.Enable();
             
             AssignAnimationIDs();
